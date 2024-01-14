@@ -9,7 +9,7 @@ Think Tanks - Consejo/Convención Constitucional - Medios de Comunicación
 
 R-Codes:
 - Uso de R Studio para realizar webscraping de medios de comunicación, think tanks y blibliotecas.
-- Se utilizá el paquete de codigos Tidyverse
+- Se utiliza el paquete de codigos Tidyverse
 - A través de rvest se realiza la extracción identificando la estructura HTML/CSS de la página web objetivo
 
 R-Graphs
