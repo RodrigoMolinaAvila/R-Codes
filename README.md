@@ -19,3 +19,8 @@ R-Graphs
 R-DataBases
 - Resultado del procesamiento y depuración de información
 - Archivos Microsoft Excel .xlsx
+
+Clasificación
+- Prueba de script en pyhton sobre la clasificación automatica de una columna en excel en funcion de una categorización por palabras clave
+- Funciona!
+
