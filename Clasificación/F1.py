@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = 'C:\\Users\\rodri\\OneDrive\\Escritorio\\Clasificación\\Automate 2.xlsx'
+file_path = 'Path\Automate 2.xlsx'
 news_data = pd.read_excel(file_path)
 
 news_data['Título'] = news_data['Título'].str.lower()
