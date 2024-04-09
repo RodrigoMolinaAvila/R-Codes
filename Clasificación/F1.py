@@ -251,9 +251,8 @@ def clasificar_titulo(titulo):
 
     return ", ".join(categorias) if categorias else "Otros"
 
-# Aplicar la clasificación a cada título
 news_data['Categoría'] = news_data['Título'].apply(clasificar_titulo)
 
-# Guardar el resultado en un nuevo archivo Excel
-output_file_path = 'C:\\Users\\rodri\\OneDrive\\Escritorio\\Clasificación\\Noticias Clasificadas.xlsx'
+
+output_file_path = 'C:\\(directorios de tu pc)\Noticias Clasificadas.xlsx'
 news_data.to_excel(output_file_path, index=False)
